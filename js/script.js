@@ -15,7 +15,7 @@ $(function(){
     // var titles = '840 35';
     var titles = '';
     // Add a byline, eg:
-    var byline = 'Created by <a href="https://timsherratt.org">Michael Organ</a>.'
+    var byline = 'Created by <a href="http://www.uow.edu.au/~morgan">Michael Organ</a>.'
     // var byline = '';
     // Add a tagline
     var tagline = 'What is the date of this Martin Sharp reference?';
