@@ -5,7 +5,7 @@ $(function(){
     // You must supply a Trove API key
     var troveAPIKey = 'osmkimmfcpndpep';
     // Either provide full API query here or include options below
-    var apiQuery = '';
+    var apiQuery = 'martin sharp';
     // Words you want to search for -- separate multiple values with spaces, eg:
     // var keywords = 'weather wragge';
     var keywords = 'martin sharp';
