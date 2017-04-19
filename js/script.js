@@ -3,22 +3,22 @@ $(function(){
 
     // YOU MUST EDIT THIS SECTION
     // You must supply a Trove API key
-    var troveAPIKey = '';
+    var troveAPIKey = 'osmkimmfcpndpep';
     // Either provide full API query here or include options below
     var apiQuery = '';
     // Words you want to search for -- separate multiple values with spaces, eg:
     // var keywords = 'weather wragge';
-    var keywords = '';
+    var keywords = 'martin sharp';
     // How you want to combine keywords -- all, any, or phrase
     var keywordType = 'all'
     // Newspaper id numbers -- separate multiple values with spaces, eg:
     // var titles = '840 35';
     var titles = '';
     // Add a byline, eg:
-    var byline = 'Created by <a href="https://timsherratt.org">Tim Sherratt</a>.'
+    var byline = 'Created by <a href="https://timsherratt.org">Michael Organ</a>.'
     // var byline = '';
     // Add a tagline
-    var tagline = 'How well do you know your Australian history?';
+    var tagline = 'What is the date of this Martin Sharp reference?';
     // Leave this alone unless you're publishing on a non-https server
     var useHttps = 'true';
 
@@ -26,23 +26,23 @@ $(function(){
     // These are the hints you get after each guess
     // gt100 means the guess was greater than the target year + 100 years etc
     var messages = {};
-    messages['gt100'] = "Ummm... really... that's your guess? It's much much earlier!";
-    messages['gt50'] = "Oh no! You're way off. It's a lot earlier.";
-    messages['gt10'] = "Getting close, but it's still quite a bit earlier.";
-    messages['gt1'] = "Almost! Try a bit earlier.";
-    messages['lt100'] = "Come on, get serious! It's much much later.";
-    messages['lt50'] = "Nope, missed the mark there. It's a lot later.";
-    messages['lt10'] = "Not bad, but it's still quite a bit later.";
+    messages['gt100'] = "Far out man! - It's way earlier? It's much much earlier!";
+    messages['gt50'] = "Geez! You're way off the pace. It's a lot earlier.";
+    messages['gt10'] = "Getting closer friend, but it's still quite a bit earlier.";
+    messages['gt1'] = "Almost there! Try a bit earlier.";
+    messages['lt100'] = "Come on, get serious man! It's much much later.";
+    messages['lt50'] = "Nope, dudded out there. It's a lot later.";
+    messages['lt10'] = "Cool, but it's still quite a bit later.";
     messages['lt1'] = "So close! Try a bit later.";
 
     // These are the messages you get if you guess correctly
     // The numbers 1-10 represent to number of guesses taken
     var success_messages = [];
-    success_messages[1] = 'What! How did you... are you cheating?';
-    success_messages[2] = 'The force is strong with this one...';
-    success_messages[3] = 'We salute you and your profound temporal knowledge!';
-    success_messages[4] = 'Excellent work!';
-    success_messages[5] = "Don't get cocky kid...";
+    success_messages[1] = 'Amazing - got it';
+    success_messages[2] = 'Peace at last!';
+    success_messages[3] = 'Groovy!';
+    success_messages[4] = 'Far out!';
+    success_messages[5] = "Groover";
     success_messages[6] = 'A good solid effort. Some room for improvement.';
     success_messages[7] = 'Not bad. Needs to pay more attention in class.';
     success_messages[8] = 'You had us worried, but you got there in the end.';
